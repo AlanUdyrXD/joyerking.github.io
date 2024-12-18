@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="catalogostyle.css">
+</head>
+<body>
+    <main class="hero">
+        <!-- header -->
+        <header class="hero__header container">
+
+            <picture class="hero__picture container__logo">
+                <img src="/assets/logo2.jpg" alt="logo" class="logo">
+            </picture>
+
+        </header>
+
+
+        <!-- nav -->
+        <nav class="hero__nav container">
+
+            <ul class="hero__ul">
+
+                <li class="hero__li ">
+                    <a href="/index.html"> Inicio </a>
+                </li>
+                <li class="hero__li checked">
+                    <a href="catalogo.html"> Catálogo </a>
+                </li>
+                <li class="hero__li">
+                    <a href="/html/eventoNavidad/evento.html"> Evento Navidad </a>
+                </li>
+                <li class="hero__li contador">
+                    <span id="contador">Total: $0</span>
+                    <button id="reset" style="margin-left: 10px; padding: 5px 10px; font-size: 14px;">Reset</button>
+                    <button id="comprar" style="margin-left: 10px; padding: 5px 10px; font-size: 14px;">Comprar</button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <!-- SECTION -->
+        <section class="hero__section container">
+
+
+            <div class="slider">
+                <section class="slider__item">
+                    <img  style="display: block;" src="/assets/fondo de pulseras.jpg" alt="fondo-pulseras">
+                    <div class="slider__texts">
+                        <h1>¡NUESTRO CATÁLOGO!</h1>
+                        <p>DISFRUTA de nuestros productos y accesorios únicos que tienen muchos detalles muy llamativos, con estilos minimalistas o escepticistas, que se adaptan a los deseos del cliente. Desliza hacia abajo y ! COMPRUEBALO TU MISMO !. Nuestros accesorios te esperan. </p>
+                    </div>  
+                </section>
+                <section class="slider__item">
+                    <img  style="display: block;" src="/assets/fondo navidad.jpg" alt="fondo-navidad">
+                    <div class="slider__texts">
+                        <h1>¡LLEGA LA NAVIDAD!</h1>
+                        <p class="event__description">Celebra con nosotros las fiestas de navidad adquiriendo nuestros accesorios unicos de estilos navidad con una variedad de colores llamativos. Puedes usarlos en tu skin en esta noche buena. Nuestra tienda te desea ¡ FELICES FIESTAS ! </p>
+                        <a href="/html/eventoNavidad/evento.html" class="slider__cta"> ¡Descúbrelo!</a>
+                    </div>  
+                </section>
+            </div>
+
+
+
+            <article class="hero__article ">
+                
+                <div class="carts cart1">
+                    <h1> Cadenas de plata </h1>
+                    <img src="/assets/collar.jpg" alt="imagen-cadena">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block;' ></i>
+                        <p class="display: inline-block;">50,00</p>
+                    </div>
+
+                    <p class="description">Son de un material muy hermoso, bañado en plata.</p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+                <div class="carts cart2">
+                    <h1> Anillo de rubí </h1>
+                    <img src="/assets/anillo rubi.jpg" alt="imagen-anillorubi">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block;' ></i>
+                        <p class="display: inline-block;">80,00</p>
+                    </div>
+
+                    <p class="description">Hermoso anillo con una corona de rubí, ideal para salir a pasear y usos personales.</p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+                <div class="carts cart3">
+                    <h1> Aretes de Oro </h1>
+                    <img src="/assets/aretes de oro.jpg" alt="imagen-areteoro">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block; ' ></i>
+                        <p class="display: inline-block;">40,00</p>
+                    </div>
+
+                    <p class="description">Arete pequeño bañado en oro, lo último en moda.</p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+                <div class="carts cart4">
+                    <h1> Anillos de boda </h1>
+                    <img src="/assets/anillo de boda.jpg" alt="imagen-anilloboda">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block;' ></i>
+                        <p class="display: inline-block;">90,00</p>
+                    </div>
+
+                    <p class="description">Bonito par de anillos bañados en oro, idel para dos comprometidos que tienen el deseo de casarse</p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+                <div class="carts cart5">
+                    <h1> Pulsera de tela negra y amarilla </h1>
+                    <img src="/assets/pulsera.jpg" alt="imagen-pulsera">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block;' ></i>
+                        <p class="display: inline-block;">20,00</p>
+                    </div>
+
+                    <p class="description">Tenemos pulseras de tela color negro y amarillo con un estilo único y llamativo.</p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+                <div class="carts cart6">
+                    <h1> Reloj gris claro </h1>
+                    <img src="/assets/reloj de plata.jpg" alt="imagen-relojgris">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block;' ></i>
+                        <p class="display: inline-block;">75,00</p>
+                    </div>
+
+                    <p class="description">Tenemos hermosos relojes de mano de un color gris con las manecillas de un color dorado que resalta. </p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+                <div class="carts cart7">
+                    <h1> Brazalete blanco </h1>
+                    <img src="/assets/brazalete blanco.jpg" alt="imagen-brazaleteblanco">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block;' ></i>
+                        <p class="display: inline-block;">40,00</p>
+                    </div>
+
+                    <p class="description">Hermoso brazalete blanco con un color muy llamativo y brillante que puedes llevar a donde plascas, viene con un par de pedazos de esmeralda para hacer una buena conbinación</p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+                <div class="carts cart8">
+                    <h1> Brazalete de plata </h1>
+                    <img src="/assets/brazalete de plata.jpg" alt="imagen-brazaleteplata">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block;' ></i>
+                        <p class="display: inline-block;">55,00</p>
+                    </div>
+
+                    <p class="description">Hermoso brazalete bañado en plata con un diseño muy peculiar. Viene con unas partes pequeñas cristalizadas de color rosado con diseños de corazón, muy bonitos y llamativos.</p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+                <div class="carts cart9">
+                    <h1> Pulsera oscura </h1>
+                    <img src="/assets/pulsera oscura.jpg" alt="imagen-">
+                    
+                    <div class="price">
+                        <i class='bx bx-dollar' style='color:#48a821; display: inline-block;' ></i>
+                        <p class="display: inline-block;">42,00</p>
+                    </div>
+
+                    <p class="description">Pulsera de colores muy oscuros, un estilo muy minimalista, ideas para las personas que no les gusta el color llamativo, en lo personal, es mi favorito XD.</p>
+                    <a href="#" class="cta"><i class='bx bx-cart' style='color:#004216; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                    </a>                    
+                </div>
+
+               
+
+            </article>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- FOOTER -->
+        <footer class="hero__footer container">
+            <div class="footer__container">
+                <section class="hero__contact">
+                    <h1>Contactos</h1>
+                    <div class="container__contact">
+                        <div>
+                            <i class='bx bxl-facebook-square' style="color: blue"></i>
+                            <a  target="_blank" href="https://www.facebook.com/profile.php?id=100070214287598">Facebook</a>
+                        </div>
+                        <div style="cursor: default;">
+                            <i class='bx bxl-whatsapp' style='color:#319631'  ></i>
+                            <a >+593 99 535 5126 </a>
+                        </div>
+                        <div style="cursor: default;">
+                            <i class='bx bxs-envelope' style="color: #fff" ></i>
+                            <a>alanureta43@gmail.com</a>
+                        </div>
+                    </div>
+                </section>
+    
+                <div class="hero__information">
+                    <p>&copyCopyright 2024 Alan Udyr</p>
+    
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="catalogo.js"></script>
+</body>
+</html>

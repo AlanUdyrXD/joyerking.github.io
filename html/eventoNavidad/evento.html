@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Navidad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="eventostyle.css">
+
+    <style>
+        .checked a{
+
+            background-color: green;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <main class="hero">
+        <!-- header -->
+        <header class="hero__header container">
+
+            <picture class="hero__picture container__logo">
+                <img src="/assets/logo2.jpg" alt="logo" class="logo">
+            </picture>
+
+        </header>
+
+
+        <!-- nav -->
+        <nav class="hero__nav container">
+
+            <ul class="hero__ul">
+
+                <li class="hero__li ">
+                    <a href="/index.html"> Inicio </a>
+                </li>
+                <li class="hero__li ">
+                    <a href="/html/catalogo/catalogo.html"> Catálogo </a>
+                </li>
+                <li class="hero__li checked">
+                    <a href="/html/eventoNavidad/evento.html"> Evento Navidad </a>
+                </li>
+                <li class="hero__li contador">
+                    <span id="contador">Total: $0</span>
+                    <button id="reset" style="margin-left: 10px; padding: 5px 10px; font-size: 14px;">Reset</button>
+                    <button id="comprar" style="margin-left: 10px; padding: 5px 10px; font-size: 14px;">Comprar</button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <section class="hero__section">
+            <article class="event__container container">
+                <h1 class="event__title">ACCESORIOS EXCLUSIVOS DE NAVIDAD</h1>
+                <p class="event__paragraph">¡FELICES FIESTAS!. Esperamos que la estés pasando bien, descubre nuestros accesorios con un diseño único de NAVIDAD que te hará quedar asombrado y ansioso por adquirir uno. XD.
+                </p>
+                <div class="accesorios__container">
+                    <div class="carts cart1">
+                        <h1> Pulsera de colores navideños </h1>
+                        <img src="/assets/pulsera de navidad.jpg" alt="imagen-pulseranavidad">
+                        
+                        <div class="price">
+                            <i class='bx bx-dollar' style='color: darkgreen; display: inline-block;' ></i>
+                            <p class="display: inline-block;">60,00</p>
+                        </div>
+    
+                        <p class="description">Estas hermosas pulseras estan diseñadas con colores de navidad, donde predominan el verde y el rojo, con unos estilos unicos y llamativos.</p>
+                        <a href="#" class="cta"><i class='bx bx-cart' style='color:#fff; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                        </a>                    
+                    </div>
+
+                    <div class="carts cart2">
+                        <h1> Esferas Rojas de Navidad </h1>
+                        <img src="/assets/esferas de navidad.jpg" alt="imagen-esferasrojas">
+                        
+                        <div class="price">
+                            <i class='bx bx-dollar' style='color: darkgreen; display: inline-block;' ></i>
+                            <p class="display: inline-block;">20,00</p>
+                        </div>
+    
+                        <p class="description">Hermosos adornos de navidad en forma de esferas, ideales para plantarlas en tu árbol de navidad y sentir el espíritu navideño. Vienen 10 por paquete.</p>
+                        <a href="#" class="cta"><i class='bx bx-cart' style='color:#fff; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                        </a>                    
+                    </div>
+
+                    <div class="carts cart3">
+                        <h1> Diadema de Navidad </h1>
+                        <img src="/assets/diadema de navidad.jpg" alt="imagen-diadema">
+                        
+                        <div class="price">
+                            <i class='bx bx-dollar' style='color: darkgreen; display: inline-block;' ></i>
+                            <p class="display: inline-block;">22,00</p>
+                        </div>
+    
+                        <p class="description">Bonita diadema hecha a mano donde predomina el estilo navideño. Ideal para que se lo des como regalo a tu hija para las fiestas de navidad. </p>
+                        <a href="#" class="cta"><i class='bx bx-cart' style='color:#fff; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                        </a>                    
+                    </div>
+
+                    <div class="carts cart4">
+                        <h1> Aretes estilo navidad </h1>
+                        <img src="/assets/aretes navidad.jpg" alt="imagen-aretesnavidad">
+                        
+                        <div class="price">
+                            <i class='bx bx-dollar' style='color: darkgreen; display: inline-block;' ></i>
+                            <p class="display: inline-block;">50,00</p>
+                        </div>
+    
+                        <p class="description">Bonitos pares de aretes que se enfoca en el estilo navideño. Están compuestos por arboles de navidad hecho de cristal, con los colores llamativos verde claro y rojo.
+                        </p>
+                        <a href="#" class="cta"><i class='bx bx-cart' style='color:#fff; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                        </a>                    
+                    </div>
+
+                    <div class="carts cart5">
+                        <h1> Reloj inteligente (Oferta) </h1>
+                        <img src="/assets/relojinteligente.jpg" alt="imagen-relojnavidad">
+                        
+                        <div class="price">
+                            <i class='bx bx-dollar' style='color: darkgreen; display: inline-block;' ></i>
+                            <p class="display: inline-block;"><span style="text-decoration: line-through;">50,00</span>/ 35,00</p>
+                        </div>
+    
+                        <p class="description">Hermoso reloj inteligente capaz de realizar las funciones de un telefono celular basico. Es muy útil, y con una oferta única por navidad. ¡ Aprovecha !</p>
+                        <a href="#" class="cta"><i class='bx bx-cart' style='color:#fff; display: inline-block;'></i> <p style="display: inline-block;">Agregar</p>
+                        </a>                    
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- FOOTER -->
+        <footer class="hero__footer container">
+            <div class="footer__container">
+                <section class="hero__contact">
+                    <h1>Contactos</h1>
+                    <div class="container__contact">
+                        <div>
+                            <i class='bx bxl-facebook-square' style="color: blue"></i>
+                            <a  target="_blank" href="https://www.facebook.com/profile.php?id=100070214287598">Facebook</a>
+                        </div>
+                        <div style="cursor: default;">
+                            <i class='bx bxl-whatsapp' style='color:#319631'  ></i>
+                            <a >+593 99 535 5126 </a>
+                        </div>
+                        <div style="cursor: default;">
+                            <i class='bx bxs-envelope' style="color: #fff" ></i>
+                            <a>alanureta43@gmail.com</a>
+                        </div>
+                    </div>
+                </section>
+    
+                <div class="hero__information">
+                    <p>&copyCopyright 2024 Alan Udyr</p>
+    
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="eventos.js"></script>
+</body>
+</html>
